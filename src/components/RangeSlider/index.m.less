@@ -1,0 +1,46 @@
+.range-slider{
+  padding: 50px 0;
+}
+
+.slider {
+  position: relative;
+  width: 200px;
+  height: 1px;
+  margin: 0 auto;
+  background: #c7ced4;
+}
+
+.silder-range {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 1px;
+  background: #3cc;
+}
+
+.slider-handle {
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  z-index: 1000;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #d0d6db;
+  cursor: pointer;
+  & > span {
+    position: absolute;
+    top: -23px;
+    left: -6px;
+    font-size: 15px;
+    color: #666;
+  }
+  &:nth-of-type(1) {
+    margin-left: -13px;
+  }
+  &:nth-of-type(2) {
+    margin-right: -13px;
+  }
+}

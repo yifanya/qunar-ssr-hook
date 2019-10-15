@@ -1,0 +1,59 @@
+.select-wrap {
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: .5s;
+  z-index: 1000000;
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.select-title {
+  background-color: #00c9e2;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  height: 40px;
+  a {
+    width: 28px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  em {
+    display: block;
+    width: 28px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    &:last-child {
+      width: 2px;
+      height: 28px;
+      top: 0;
+      left: 13px;
+    }
+  }
+}
+
+.select-options {
+  text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #dcdfe0;
+  color: #666;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+}
+
+.select-checked {
+  color: #1ba9ba;
+}

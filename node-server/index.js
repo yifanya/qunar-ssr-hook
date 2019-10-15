@@ -6,22 +6,41 @@ const favicon = require('static-favicon');
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const queryString = require('query-string');
+const Redis = require('ioredis');
+const RedisStore = require('connect-redis')(session);
+const oAuth = require('./middlewares/oAuth');
 
 const isDev = process.env.NODE_ENV === 'development';
 const app = express();
+const redis = new Redis();
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(session({
-  maxAge: 10 * 60 * 1000,
+  cookie: { path: '/', httpOnly: true, secure: false, maxAge: 10 * 60 * 1000 },
   name: 'session-id',
-  resave: false,
-  secret: 'asdasdhalisdaiusda'
+  resave: true,
+  secret: 'asdasdhalisdaiusda',
+  saveUninitialized: false,
+  store: new RedisStore({
+    client: new Redis()
+  })
 }))
 
 app.use(favicon(path.join(__dirname, '../public/favicon.ico')));
-app.use('/api/user', require('./routers/loginRouter'));
-app.use('/api/', require('./routers/proxyRouter'));
+app.use('/api', require('./routers/apiRouter'));
+app.get('/getSession', (req, res) => {
+  console.log(req.session);
+  console.log(req.sessionID);
+})
+
+app.get('/login/session', (req, res) => {
+  req.session.store = {
+    name: 'yifan',
+    age: 18
+  }
+  res.end('set session success');
+})
 
 if (!isDev) {
   console.log('production')

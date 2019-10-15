@@ -221,7 +221,7 @@ let webpackConfig = {
         ),
       },
       {
-        test: /\.(bmp|gif|jpe?g|png)$/,
+        test: /\.(bmp|gif|jpe?g|png|svg)$/,
         use: [
           {
             loader: require.resolve('url-loader'),
@@ -256,7 +256,8 @@ let webpackConfig = {
             loader:'babel-loader'
           }
         ]
-      }
+      },
+
     ]
   },
   plugins: [

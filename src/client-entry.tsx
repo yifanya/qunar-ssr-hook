@@ -2,7 +2,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { hot } from 'react-hot-loader/root';
 import { BrowserRouter } from 'react-router-dom';
-import App from './app';
 import RouterView from './components/RouterView';
 import routersConfig from './config/routers';
 import { loadableReady } from "@loadable/component";
@@ -10,6 +9,8 @@ import { Provider } from 'react-redux';
 import createStore from './store/store';
 import { Store } from 'redux';
 import { Task } from 'redux-saga';
+import './index.less';
+import Loading from './components/Loading';
 
 const initialState = window.__INITIAL_STATE__  || {};
 // const stores = createStore(initialState);
@@ -23,9 +24,9 @@ function Component () {
   return (
     <Provider store={stores}>
       <BrowserRouter>
-        <App />
         <RouterView routers={routersConfig as Array<IRouter>} />
       </BrowserRouter>
+      <Loading />
     </Provider>
   )
 }
@@ -33,7 +34,7 @@ function Component () {
 const Container = hot(Component);
 
 loadableReady().then(() => {
-  ReactDOM.render(
+  ReactDOM.hydrate(
     <Container />,
     document.getElementById('root')
   )

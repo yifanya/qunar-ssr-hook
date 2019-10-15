@@ -1,8 +1,16 @@
 import { all, fork } from 'redux-saga/effects';
-import TopicListSagas from '../containers/TopicList/saga';
+import QunarIndex from '../containers/QunarIndex/saga';
+import Global from './globalState/globalSagas';
+import TrainList from '../containers/TrainList/saga';
+import TrainTicket from '../containers/TrainTicket/saga';
+import TrainOrderFill from '../containers/TrainOrderFill/saga';
 
 export default function * rootSagas () {
   yield all([
-    fork(TopicListSagas)
+    fork(Global),
+    fork(QunarIndex),
+    fork(TrainList),
+    fork(TrainTicket),
+    fork(TrainOrderFill)
   ])
 }
