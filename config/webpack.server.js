@@ -135,6 +135,17 @@ let webpackConfig = {
         // See https://github.com/webpack/webpack/issues/6571
         // sideEffects: true,
       },
+      // {
+      //   test: /\.(svg|jpe?g|gif)$/,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[path][name]-[hash:4].[ext]'
+      //       }
+      //     }
+      //   ]
+      // },
       {
         test: cssModuleRegex,
         use: getStyleLoaders({
@@ -173,7 +184,7 @@ let webpackConfig = {
         ),
       },
       {
-        test: /\.(bmp|gif|jpe?g|png)$/,
+        test: /\.(bmp|gif|jpe?g|png|svg)$/,
         use: [
           {
             loader: require.resolve('url-loader'),

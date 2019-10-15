@@ -1,0 +1,39 @@
+.loading-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  background: rgba(0, 0, 0, .2);
+}
+
+.loading {
+  position: fixed;
+  width: 180px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 201;
+  padding: 5px 0px 15px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.loading-content {
+  width: 100px;
+  margin: 0px auto;
+  text-align: center;
+  background-image: url(./images/city.png);
+  background-position-x: 0;
+  background-position-y: 70%;
+  background-size: auto 30%;
+  background-repeat: repeat-x;
+}
+
+.loading-text {
+  font-size: 14px;
+  color: rgb(158, 158, 158);
+  margin: 5px 0 0 0;
+}

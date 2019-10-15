@@ -1,0 +1,64 @@
+.month {
+  width: 100%;
+}
+.title {
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #212121;
+  text-align: center;
+  height: .3rem;
+  line-height: .3rem;
+  position: sticky;
+  top: .24rem;
+  z-index: 9;
+  font-weight: 500;
+}
+
+.week {
+  border-radius: .04rem;
+  width: 100%;
+  display: flex;
+}
+.day-item {
+  position: relative;
+  width: calc(100% / 7);
+  flex-grow: 1;
+  height: .54rem;
+  line-height: .54rem;
+  text-align: center;
+  font-size: 15px;
+  border-radius: .04rem;
+  &.selected {
+    background-color: #00c9e2;
+    color: #fff;
+  }
+}
+.hidden-day-block {
+  background-color: #eeeeee;
+}
+
+.holiday {
+  color: #ff8300;
+}
+.toptip {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  top: .03rem;
+  line-height: 1.5;
+}
+.bottomtip {
+  line-height: 1.5;
+  bottom: .05rem;
+  color: #ff8300;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+}
+.disabled {
+  color: #bdbdbd !important;
+}

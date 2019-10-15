@@ -1,6 +1,7 @@
 {
   "presets": ["@babel/react","@babel/env"],
   "plugins": [
+    ["import",{ "libraryName": "antd" }],
     "@babel/plugin-transform-exponentiation-operator",
     ["@babel/plugin-proposal-decorators",{"legacy":true}],
     ["@babel/plugin-proposal-class-properties", { "loose" : true }],

@@ -1,3 +1,3 @@
 module.exports = {
-  baseURL: 'https://cnodejs.org/api/v1', // cnode api 
+  baseURL: 'http://localhost:3000', // cnode api 
 }

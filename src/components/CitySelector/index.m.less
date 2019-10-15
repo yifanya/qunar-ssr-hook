@@ -1,0 +1,53 @@
+.city-selector {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.search-input {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 20px;
+  transform: translateY(-50%);
+  height: 75%;
+  width: 2.7rem;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  padding: 0 30px 0 10px;
+  & + .clear-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    color: #777;
+    left: 2.8rem;
+    font-size: 0.2rem;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+}
+
+.modal {
+  position: fixed;
+  width: 30vw;
+  height: 8vh;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 10px;
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 8vh;
+}

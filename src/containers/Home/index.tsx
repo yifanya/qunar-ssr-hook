@@ -1,29 +1,25 @@
 import * as React from 'react';
-import * as s from './index.m.less';
-import Helmet from 'react-helmet';
+import QunarIndex from '../QunarIndex/index';
+import { RouteComponentProps } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { GlobalStateType } from 'src/store/reducers';
 
-interface HomeProps {
-  routers?: Array<any>
+type IStateToProps = GlobalStateType['GlobalReducer'];
+
+interface IProps{
+  route: RouteComponentProps
 }
 
-interface HomeState {
-
+const App: React.FC<IProps & IStateToProps>  = props => {
+  return (
+    <QunarIndex route={props.route}/>
+  )
 }
 
-class Home extends React.Component<HomeProps, HomeState> {
-  render () {
-    return (
-      <div>
-        <Helmet>
-          <title>Home component</title>
-          <meta name="description" content="description Home component" />
-        </Helmet>
-        <header className={s['header']}>
-          jianshuaaaaa
-        </header>
-      </div>
-    )
+const mapStateToProps = (state: GlobalStateType) => {
+  return {
+    userInfo: state.GlobalReducer.userInfo
   }
 }
 
-export default Home;
+export default connect(mapStateToProps)(App);

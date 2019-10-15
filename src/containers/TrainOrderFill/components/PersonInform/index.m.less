@@ -1,0 +1,116 @@
+.passengerInfo {
+  background-color: #fff;
+  .passenger-list {
+    .passenger_person {
+      padding-left: 54px;
+      position: relative;
+      .passenger-delete {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        margin-top: -9px;
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        border-radius: 10px;
+        border: 1px solid red;
+        font-size: 12px;
+        color: red;
+        text-align: center;
+        vertical-align: middle;
+        & + ol {
+          li {
+            display: flex;
+          }
+        }
+      }
+
+      .nameLi {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          background-color: #dcdfe0;
+          height: 1px;
+          right: 0;
+          left: 0;
+          top: 100%;
+          z-index: 1;
+        }
+      }
+      .passenger_label {
+        position: relative;
+        display: flex;
+        width: 60px;
+        font-size: 13px;
+        line-height: 44px;
+        color: #1ba9ba;
+        & > span {
+          line-height: 15px;
+          margin: auto 0;
+          display: inline-block;
+          width: 40px;
+        }
+      }
+      .passenger_value {
+        margin: 10px auto;
+        height: 24px;
+        line-height: 24px;
+        border: 0;
+        border-left: 1px solid #dcdfe0;
+        text-indent: 10px;
+        flex: 1;
+      }
+    }
+  }
+}
+
+.addPassengerCon {
+  color: #1ba9ba;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 16px;
+  overflow: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: #dcdfe0;
+    height: 1px;
+    right: 0;
+    left: 0;
+  }
+  & > p {
+    margin: 5px 0;
+  }
+}
+.arrowBottom{
+  &::after {
+    right: 5px;
+    position: absolute;
+    content: '';
+    width: 11px;
+    height: 6px;
+    top: 50%;
+    margin-top: -3px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAMCAYAAABm+U3GAAAAbUlEQVR42p3OwQnAQAhEUUvZErZMu9jSUkJKMA4kCBEZmMNHmMNDiwhz951d7zWtMmBiWNmdBa6I75+xvo8PRopzFB2YgEdcRQsW8Amd4AHnKHYCDzhBGUzwCeUwwTsqwB1vqA4XTlAFLrxQDj+3MTlro/oAUgAAAABJRU5ErkJggg==') no-repeat;
+    background-size: 100%;
+  }
+}
+
+.passenger_person {
+  &::after {
+    content: '';
+    position: absolute;
+    background-color: #dcdfe0;
+    height: 1px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+.sex_input {
+  height: 44px;
+  margin: 0;
+}

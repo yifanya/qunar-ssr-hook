@@ -13,7 +13,6 @@ class Http {
 
   interceptors (instance) {
     instance.interceptors.request.use(function (config) {
-      // console.log('config', config);
       return config;
     }, function (error) {
       return Promise.reject(error);
