@@ -2,37 +2,37 @@
   "errors": [],
   "warnings": [],
   "version": "4.37.0",
-  "hash": "3e34a4b104f6c98e3ad4",
+  "hash": "fa9f8380d21e8c89b8f9",
   "publicPath": "/public/",
-  "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+  "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
   "assetsByChunkName": {
-    "app": "app.3e34.js",
+    "app": "app.fa9f.js",
     "default~app~21833f8f": [
-      "static/css/default~app~21833f8f.0b473986.chunk.css",
-      "default~app~21833f8f.3e34.js"
+      "static/css/default~app~21833f8f.b6202af1.chunk.css",
+      "default~app~21833f8f.fa9f.js"
     ],
     "default~app~d0ae3f07": [
-      "static/css/default~app~d0ae3f07.3b4908a2.chunk.css",
-      "default~app~d0ae3f07.3e34.js"
+      "static/css/default~app~d0ae3f07.d2a4aff6.chunk.css",
+      "default~app~d0ae3f07.fa9f.js"
     ],
     "default~app~e89cd989": [
-      "static/css/default~app~e89cd989.ddea47a7.chunk.css",
-      "default~app~e89cd989.3e34.js"
+      "static/css/default~app~e89cd989.e1bc855b.chunk.css",
+      "default~app~e89cd989.fa9f.js"
     ],
-    "runtime~app": "runtime~app.3e34.js",
-    "vendors~app~0928ebd2": "vendors~app~0928ebd2.3e34.js",
-    "vendors~app~0f485567": "vendors~app~0f485567.3e34.js",
-    "vendors~app~10e2e882": "vendors~app~10e2e882.3e34.js",
-    "vendors~app~1f20a385": "vendors~app~1f20a385.3e34.js",
-    "vendors~app~564ee150": "vendors~app~564ee150.3e34.js",
-    "vendors~app~678f84af": "vendors~app~678f84af.3e34.js",
-    "vendors~app~d939e436": "vendors~app~d939e436.3e34.js",
-    "vendors~app~e4173fa2": "vendors~app~e4173fa2.3e34.js",
-    "vendors~app~f734b0c6": "vendors~app~f734b0c6.3e34.js"
+    "runtime~app": "runtime~app.fa9f.js",
+    "vendors~app~0928ebd2": "vendors~app~0928ebd2.fa9f.js",
+    "vendors~app~0f485567": "vendors~app~0f485567.fa9f.js",
+    "vendors~app~10e2e882": "vendors~app~10e2e882.fa9f.js",
+    "vendors~app~1f20a385": "vendors~app~1f20a385.fa9f.js",
+    "vendors~app~564ee150": "vendors~app~564ee150.fa9f.js",
+    "vendors~app~678f84af": "vendors~app~678f84af.fa9f.js",
+    "vendors~app~d939e436": "vendors~app~d939e436.fa9f.js",
+    "vendors~app~e4173fa2": "vendors~app~e4173fa2.fa9f.js",
+    "vendors~app~f734b0c6": "vendors~app~f734b0c6.fa9f.js"
   },
   "assets": [
     {
-      "name": "app.3e34.js",
+      "name": "app.fa9f.js",
       "size": 127,
       "chunks": [
         0
@@ -43,8 +43,8 @@
       "emitted": false
     },
     {
-      "name": "default~app~21833f8f.3e34.js",
-      "size": 23811,
+      "name": "default~app~21833f8f.fa9f.js",
+      "size": 23791,
       "chunks": [
         1
       ],
@@ -54,7 +54,7 @@
       "emitted": false
     },
     {
-      "name": "default~app~d0ae3f07.3e34.js",
+      "name": "default~app~d0ae3f07.fa9f.js",
       "size": 13171,
       "chunks": [
         2
@@ -65,7 +65,7 @@
       "emitted": false
     },
     {
-      "name": "default~app~e89cd989.3e34.js",
+      "name": "default~app~e89cd989.fa9f.js",
       "size": 26316,
       "chunks": [
         3
@@ -83,7 +83,7 @@
       "emitted": false
     },
     {
-      "name": "runtime~app.3e34.js",
+      "name": "runtime~app.fa9f.js",
       "size": 1487,
       "chunks": [
         4
@@ -101,8 +101,8 @@
       "emitted": false
     },
     {
-      "name": "static/css/default~app~21833f8f.0b473986.chunk.css",
-      "size": 11755,
+      "name": "static/css/default~app~21833f8f.b6202af1.chunk.css",
+      "size": 11766,
       "chunks": [
         1
       ],
@@ -112,7 +112,7 @@
       "emitted": false
     },
     {
-      "name": "static/css/default~app~d0ae3f07.3b4908a2.chunk.css",
+      "name": "static/css/default~app~d0ae3f07.d2a4aff6.chunk.css",
       "size": 8250,
       "chunks": [
         2
@@ -123,8 +123,8 @@
       "emitted": false
     },
     {
-      "name": "static/css/default~app~e89cd989.ddea47a7.chunk.css",
-      "size": 4339,
+      "name": "static/css/default~app~e89cd989.e1bc855b.chunk.css",
+      "size": 4352,
       "chunks": [
         3
       ],
@@ -162,7 +162,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~0928ebd2.3e34.js",
+      "name": "vendors~app~0928ebd2.fa9f.js",
       "size": 106234,
       "chunks": [
         5
@@ -173,7 +173,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~0f485567.3e34.js",
+      "name": "vendors~app~0f485567.fa9f.js",
       "size": 25170,
       "chunks": [
         6
@@ -184,7 +184,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~10e2e882.3e34.js",
+      "name": "vendors~app~10e2e882.fa9f.js",
       "size": 17754,
       "chunks": [
         7
@@ -195,7 +195,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~1f20a385.3e34.js",
+      "name": "vendors~app~1f20a385.fa9f.js",
       "size": 15849,
       "chunks": [
         8
@@ -206,7 +206,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~564ee150.3e34.js",
+      "name": "vendors~app~564ee150.fa9f.js",
       "size": 10135,
       "chunks": [
         9
@@ -217,7 +217,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~678f84af.3e34.js",
+      "name": "vendors~app~678f84af.fa9f.js",
       "size": 19725,
       "chunks": [
         10
@@ -228,7 +228,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~d939e436.3e34.js",
+      "name": "vendors~app~d939e436.fa9f.js",
       "size": 31472,
       "chunks": [
         11
@@ -239,7 +239,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~e4173fa2.3e34.js",
+      "name": "vendors~app~e4173fa2.fa9f.js",
       "size": 13245,
       "chunks": [
         12
@@ -250,7 +250,7 @@
       "emitted": false
     },
     {
-      "name": "vendors~app~f734b0c6.3e34.js",
+      "name": "vendors~app~f734b0c6.fa9f.js",
       "size": 16933,
       "chunks": [
         13
@@ -281,23 +281,23 @@
         0
       ],
       "assets": [
-        "runtime~app.3e34.js",
-        "vendors~app~0f485567.3e34.js",
-        "vendors~app~e4173fa2.3e34.js",
-        "vendors~app~d939e436.3e34.js",
-        "vendors~app~1f20a385.3e34.js",
-        "vendors~app~678f84af.3e34.js",
-        "vendors~app~f734b0c6.3e34.js",
-        "vendors~app~10e2e882.3e34.js",
-        "vendors~app~0928ebd2.3e34.js",
-        "vendors~app~564ee150.3e34.js",
-        "static/css/default~app~d0ae3f07.3b4908a2.chunk.css",
-        "default~app~d0ae3f07.3e34.js",
-        "static/css/default~app~21833f8f.0b473986.chunk.css",
-        "default~app~21833f8f.3e34.js",
-        "static/css/default~app~e89cd989.ddea47a7.chunk.css",
-        "default~app~e89cd989.3e34.js",
-        "app.3e34.js"
+        "runtime~app.fa9f.js",
+        "vendors~app~0f485567.fa9f.js",
+        "vendors~app~e4173fa2.fa9f.js",
+        "vendors~app~d939e436.fa9f.js",
+        "vendors~app~1f20a385.fa9f.js",
+        "vendors~app~678f84af.fa9f.js",
+        "vendors~app~f734b0c6.fa9f.js",
+        "vendors~app~10e2e882.fa9f.js",
+        "vendors~app~0928ebd2.fa9f.js",
+        "vendors~app~564ee150.fa9f.js",
+        "static/css/default~app~d0ae3f07.d2a4aff6.chunk.css",
+        "default~app~d0ae3f07.fa9f.js",
+        "static/css/default~app~21833f8f.b6202af1.chunk.css",
+        "default~app~21833f8f.fa9f.js",
+        "static/css/default~app~e89cd989.e1bc855b.chunk.css",
+        "default~app~e89cd989.fa9f.js",
+        "app.fa9f.js"
       ],
       "children": {},
       "childAssets": {}
@@ -322,23 +322,23 @@
         0
       ],
       "assets": [
-        "runtime~app.3e34.js",
-        "vendors~app~0f485567.3e34.js",
-        "vendors~app~e4173fa2.3e34.js",
-        "vendors~app~d939e436.3e34.js",
-        "vendors~app~1f20a385.3e34.js",
-        "vendors~app~678f84af.3e34.js",
-        "vendors~app~f734b0c6.3e34.js",
-        "vendors~app~10e2e882.3e34.js",
-        "vendors~app~0928ebd2.3e34.js",
-        "vendors~app~564ee150.3e34.js",
-        "static/css/default~app~d0ae3f07.3b4908a2.chunk.css",
-        "default~app~d0ae3f07.3e34.js",
-        "static/css/default~app~21833f8f.0b473986.chunk.css",
-        "default~app~21833f8f.3e34.js",
-        "static/css/default~app~e89cd989.ddea47a7.chunk.css",
-        "default~app~e89cd989.3e34.js",
-        "app.3e34.js"
+        "runtime~app.fa9f.js",
+        "vendors~app~0f485567.fa9f.js",
+        "vendors~app~e4173fa2.fa9f.js",
+        "vendors~app~d939e436.fa9f.js",
+        "vendors~app~1f20a385.fa9f.js",
+        "vendors~app~678f84af.fa9f.js",
+        "vendors~app~f734b0c6.fa9f.js",
+        "vendors~app~10e2e882.fa9f.js",
+        "vendors~app~0928ebd2.fa9f.js",
+        "vendors~app~564ee150.fa9f.js",
+        "static/css/default~app~d0ae3f07.d2a4aff6.chunk.css",
+        "default~app~d0ae3f07.fa9f.js",
+        "static/css/default~app~21833f8f.b6202af1.chunk.css",
+        "default~app~21833f8f.fa9f.js",
+        "static/css/default~app~e89cd989.e1bc855b.chunk.css",
+        "default~app~e89cd989.fa9f.js",
+        "app.fa9f.js"
       ],
       "children": {},
       "childAssets": {}
@@ -350,7 +350,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [
         {
@@ -396,7 +396,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [
         {
@@ -442,7 +442,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -478,7 +478,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -514,7 +514,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -550,7 +550,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -586,7 +586,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -622,7 +622,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -658,7 +658,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -694,7 +694,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -730,7 +730,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -766,7 +766,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -802,7 +802,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -838,7 +838,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -874,7 +874,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -910,7 +910,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -946,7 +946,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -982,7 +982,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -1018,7 +1018,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -1054,7 +1054,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -1090,7 +1090,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -1126,7 +1126,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,
@@ -1162,7 +1162,7 @@
       "errors": [],
       "warnings": [],
       "publicPath": "/public/",
-      "outputPath": "/Users/lvyifan/project/react-blog-nuxt/dist-client",
+      "outputPath": "/home/yifan/qunar-ssr-hook/dist-client",
       "assetsByChunkName": {},
       "assets": [],
       "filteredAssets": 0,

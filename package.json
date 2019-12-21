@@ -9,7 +9,8 @@
     "server:build": "rm -rf ./dist-server && cross-env NODE_ENV=production npx webpack --config ./config/webpack.server.js",
     "dev:client": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.client.js",
     "dev:server": "cross-env NODE_ENV=development nodemon ./node-server/index.js",
-    "start": "cross-env NODE_ENV=production node ./node-server/index.js",
+    "start": "cross-env NODE_ENV=production pm2 start ./node-server/index.js --name qunar",
+    "restart": "cross-env NODE_ENV=production pm2 restart ./node-server/index.js --name qunar",
     "build": "npm run client:build && npm run server:build"
   },
   "author": "",
